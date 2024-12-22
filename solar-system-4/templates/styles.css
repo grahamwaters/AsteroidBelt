@@ -1,0 +1,11 @@
+#binarySystem {
+    position: absolute;
+    z-index: 1; /* Foreground simulation */
+}
+
+canvas:nth-child(2) {
+    position: absolute;
+    z-index: -1; /* Background stars */
+    top: 0;
+    left: 0;
+}
