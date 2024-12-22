@@ -1,0 +1,104 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "solar-system-3.solar-system-simulation.app",
+        "description": "solar-system-3.solar-system-simulation.app",
+        "peekOfCode": "def index():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "solar-system-3.solar-system-simulation.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "solar-system-3.solar-system-simulation.app",
+        "description": "solar-system-3.solar-system-simulation.app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef index():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "solar-system-3.solar-system-simulation.app",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "solar-system-simulation.app",
+        "description": "solar-system-simulation.app",
+        "peekOfCode": "def home():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "solar-system-simulation.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "solar-system-simulation.app",
+        "description": "solar-system-simulation.app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef home():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "solar-system-simulation.app",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "solar-system-simulation-full.app",
+        "description": "solar-system-simulation-full.app",
+        "peekOfCode": "def home():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "solar-system-simulation-full.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "solar-system-simulation-full.app",
+        "description": "solar-system-simulation-full.app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef home():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "solar-system-simulation-full.app",
+        "documentation": {}
+    }
+]
