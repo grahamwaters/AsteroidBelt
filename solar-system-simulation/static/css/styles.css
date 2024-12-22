@@ -1,0 +1,94 @@
+/* Basic Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+/* Container for 3D Scene */
+#container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Info Panel */
+#infoPanel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 5px;
+  max-width: 200px;
+  opacity: 0; /* default hidden */
+  transition: opacity 0.5s ease;
+}
+
+/* Speed Indicator */
+#speedIndicator {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Stats.js (positioned top-left by default) */
+#stats {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+#controlPanel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+#controlPanel button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background: #004e92;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#controlPanel button:hover {
+  background: #007bb5;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 5px;
+  pointer-events: none;
+  z-index: 20;
+}
